@@ -1,0 +1,104 @@
+.block-education{
+    padding-top: 50px;
+}
+.image-hero {
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ca5339361f8853548066bb08/b7040d72be0edade2d96c5faa0198690.jpg");
+}
+
+.education-h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #42434b;
+}
+
+.education-h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    color: #42434b;
+}
+
+.container-cards-images {
+    display: flex;
+    padding: 50px;
+}
+
+.block-images-text {
+    display: grid;
+    grid-template: 50% 50% /50% 50%;
+    gap: 20px;
+    padding: 0 20px 20px;
+}
+
+.text-teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+    background-color: #ebfcfc;
+}
+
+.h4 {
+    color: #808080;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Oswald, sans-serif;
+    margin-top: 49px;
+}
+
+.text {
+    color: #808080;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: -10px;
+    text-align: right;
+}
+
+.a1 {
+    color: #38c4c1;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.a2 {
+    color: #fe7ec9;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.text-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+    background-color: #fff2fa;
+}
+
+.children-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.children-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.div-logo {
+    width: 80px;
+    height: 80px;
+    background-color: #38c4c1;
+    border-radius: 50%;
+}
+
+.div-logo2 {
+    width: 80px;
+    height: 80px;
+    background-color: #fe7ec9;
+    border-radius: 50%;
+}

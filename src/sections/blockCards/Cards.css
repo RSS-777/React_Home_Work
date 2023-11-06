@@ -1,0 +1,65 @@
+.block-cards {
+    display: grid;
+    grid-template: min(350px) / repeat(4,1fr);
+    min-height: 250px;
+    margin-bottom: 100px;
+}
+.cards-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #38c4c1;
+
+}
+.cards-1-img{
+    width: 160px;
+    margin-bottom: 5px;
+}
+.p-cards-1{
+    margin-top: 5px;
+    color:white;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.cards-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #feca02;
+}
+.p-cards-2{
+    margin-top: 5px;
+    color:white;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.cards-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe7ec9;
+}
+.p-cards-3{
+    margin-top: 5px;
+    color:white;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.cards-4{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #488df4;
+}
+.p-cards-4{
+    margin-top: 5px;
+    color:white;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+
