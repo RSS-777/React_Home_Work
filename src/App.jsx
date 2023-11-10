@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import './App.css'
-
 const CustomButton = ({ backgroundColor, textColor, borderRadius, text }) => {
   const buttonStyles = {
     backgroundColor: backgroundColor || 'blue',
@@ -23,8 +20,8 @@ const App = () => {
     <div>
       <CustomButton backgroundColor="red" textColor="white" text="Button 1" />
       <CustomButton backgroundColor="green" textColor="black" borderRadius="8px" text="Button 2" />
-      <CustomButton backgroundColor="yellow" textColor="red"  text="Button 3" />
-      <CustomButton text="Button 4" borderRadius={"20px"}/>
+      <CustomButton backgroundColor="yellow" textColor="red" text="Button 3" />
+      <CustomButton text="Button 4" borderRadius={"20px"} />
     </div>
   );
 };
