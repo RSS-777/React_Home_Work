@@ -1,0 +1,61 @@
+.p-hide {
+    opacity: 0;
+    height: 5px;
+    overflow: hidden;
+}
+
+.p-show {
+    opacity: 1;
+    height: 250px;
+}
+
+p {
+    transition: all 2s ease-in-out;
+    overflow: auto;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.biogrophy {
+    border: 2px solid black;
+    box-shadow: 1px 1px 7px 1px black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+}
+
+.btn-text {
+    border-radius: 10px;
+    margin-left: 1.5%;
+    box-shadow:1px 1px 5px 1px black;
+    padding: 5px 10px;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: red;
+}
+
+img {
+    float: left;
+    width: 150px;
+    margin: 0 20px 20px 0;
+    animation: imgAnimation 2s infinite linear;
+}
+
+@keyframes imgAnimation {
+    0% {
+        box-shadow: 1px 1px 5px 1px rgb(248, 9, 9);
+    }
+
+    50% {
+        box-shadow: 1px 1px 5px 1px rgb(248, 216, 9);
+    }
+
+    100% {
+        box-shadow: 1px 1px 5px 1px rgb(248, 9, 9);
+    }
+}
