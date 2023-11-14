@@ -4,18 +4,16 @@ import { useState, useEffect } from 'react';
 export const ButtonToDo = () => {
     const [task, setTask] = useState('');
     const [taskList, setTaskList] = useState([]);
+    const storedTasks = JSON.parse(localStorage.getItem('taskList'));
 
     useEffect(() => {
-        const storedTasks = JSON.parse(localStorage.getItem('taskList'));
         if (storedTasks) {
             setTaskList(storedTasks);
         }
     }, []);
 
     useEffect(() => {
-        if (!taskList.length - 1) {
             localStorage.setItem('taskList', JSON.stringify(taskList))
-        }
     }, [taskList])
 
     const addTask = () => {
