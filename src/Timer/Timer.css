@@ -1,0 +1,14 @@
+.count-info {
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    color: blue;
+    font-size: 24px;
+    box-shadow: 0 0 5px 0 blue;
+}
+
+h3 {
+    color: red;
+    text-transform: uppercase;
+}

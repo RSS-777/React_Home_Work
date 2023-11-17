@@ -1,0 +1,17 @@
+ol {
+    box-shadow: 0 0 5px 1px black;
+    background-color: rgb(254, 254, 119);
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+li {
+    background-color: rgb(167, 240, 167);
+    margin: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+h3 {
+    text-align: center;
+}

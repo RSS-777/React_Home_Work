@@ -1,0 +1,12 @@
+.block-location{
+  box-shadow: 0 0 5px 2px black;
+  padding: 5px 10px;
+  background-color: rgb(234, 234, 125) ;
+}
+.block-location>h4{
+    text-shadow: 1px 1px 5px black;
+}
+.block-location>div{
+    color: rgb(62, 5, 5);
+    font-size: 22px;
+}
