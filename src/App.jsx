@@ -14,7 +14,7 @@ function App() {
 
   return (
     <UserProvider>
-      <div className={color === 'white' ? 'theme-thite' : 'theme-dark'}>
+      <div className={`${color === 'white' ? 'theme-white' : 'theme-dark'} wrapper`}>
         <h1>Lesson 39</h1>
         <button className="btn-theme" onClick={changeColor}>dark/white</button>
         < Header />
