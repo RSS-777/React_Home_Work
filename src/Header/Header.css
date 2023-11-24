@@ -1,0 +1,30 @@
+form {
+    position: relative;
+    width: 300px;
+}
+
+input {
+    position: absolute;
+    right: 5px;
+}
+
+.block-input-name {
+    margin: 5px 0 5px 5px;
+    color: red;
+}
+
+.block-input-password {
+    margin: 5px 0 5px 5px;
+    color: red;
+}
+
+.btn-login {
+    margin-left: 235px;
+    margin-top: 10px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.p-welcom {
+    text-align: center;
+}

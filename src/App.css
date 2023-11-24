@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.theme-dark {
+    background-color: black;
+    color: white;
+}
+
+.theme-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-theme {
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
