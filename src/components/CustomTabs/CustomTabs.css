@@ -1,0 +1,29 @@
+.img-customTabs{
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+
+.btn-custom-tabs{
+    background-color: inherit;
+    border: none;
+    margin-right: 30px;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.btn-color{
+    color: #1677ff;
+    text-shadow: 0 0 0.25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #1677ff;
+}
+
+.box-button{
+    border-bottom: 1px solid rgb(232, 231, 231);
+}
+
+.text-custom-tabs{
+    font-family: 'Segoe UI',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
