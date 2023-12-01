@@ -2,10 +2,10 @@ import { useState, useRef, useEffect } from "react";
 import './CustomTabs.css'
 
 const CustomTabs = ({ tabs }) => {
-    const [activeTab, setActiveTab] = useState(tabs[0]?.key || ''); // Початковий активний таб
+    const [activeTab, setActiveTab] = useState(tabs[0]?.key || ''); 
 
-    const btnRefs = useRef([]); // Масив з посиланнями на кнопки
-    const lineBorder = useRef(null); // Посилання на рядок
+    const btnRefs = useRef([]); 
+    const lineBorder = useRef(null); 
 
     const handleTabClick = (key, index) => {
         setActiveTab(key);
