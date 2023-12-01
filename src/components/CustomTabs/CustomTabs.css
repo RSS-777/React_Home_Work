@@ -13,6 +13,7 @@
 
 .btn-custom-tabs:hover{
     color: #1677ff;
+    cursor: pointer;
 }
 
 .btn-color{
