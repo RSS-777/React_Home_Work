@@ -9,7 +9,13 @@ const CustomTabs = () => {
     const btnButton1 = useRef(null)
     const btnButton2 = useRef(null)
     const btnButton3 = useRef(null)
-   console.log(activeTab)
+    const lineBorder = useRef(null)
+
+    useEffect(()=>{
+        
+    },[])
+    
+
 
     const handleTabClick = (key) => {
         setActiveTab(key);
@@ -22,12 +28,18 @@ const CustomTabs = () => {
 
         if (activeTab === '1') {
             btnButton1.current.classList.toggle('btn-color')
+            lineBorder.current.style.transform = 'translateX(5px)';
+            lineBorder.current.style.width = '65px'; //які в тебе є ідеї щоб тут зробити ширину відносно слова?
         }
         if (activeTab === '2') {
             btnButton2.current.classList.toggle('btn-color')
+            lineBorder.current.style.transform = 'translateX(110px)';
+            lineBorder.current.style.width = '65px'; //які в тебе є ідеї щоб тут зробити ширину відносно слова?
         }
         if (activeTab === '3') {
             btnButton3.current.classList.toggle('btn-color')
+            lineBorder.current.style.transform = 'translateX(220px)';
+            lineBorder.current.style.width = '100px'; //які в тебе є ідеї щоб тут зробити ширину відносно слова?
         }
     }, [activeTab])
 
@@ -44,6 +56,7 @@ const CustomTabs = () => {
                 <button onClick={() =>  handleTabClick('3') } className="btn-custom-tabs" ref={btnButton3}>
                     Марк Цукерберг
                 </button>
+                <div className="box-line"><div className="line" ref={lineBorder}></div></div>
             </div>
             <div>
                 {activeTab === '1' && (

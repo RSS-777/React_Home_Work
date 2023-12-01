@@ -11,15 +11,27 @@
     font-family: 'Segoe UI',sans-serif;
 }
 
+.btn-custom-tabs:hover{
+    color: #1677ff;
+}
+
 .btn-color{
     color: #1677ff;
     text-shadow: 0 0 0.25px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #1677ff;
 }
 
-.box-button{
-    border-bottom: 1px solid rgb(232, 231, 231);
+.box-line{
+  width: 100%;
+  height: 1px;
+  background-color:  rgb(232, 232, 232);
+  margin-top: 15px;
+}
+
+.line{
+   width: 65px;
+   height: 1.8px;
+   background-color: #1677ff;
+   transition: all 0.3s ease;
 }
 
 .text-custom-tabs{
