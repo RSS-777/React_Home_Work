@@ -17,19 +17,19 @@ function App() {
   const tabs = [
     {
       key: '1',
-      title: 'Білл Гейтс',
+      title: 'Tabs 1',
       image: imgBill,
       content: 'Текст про Білла Гейтса...'
     },
     {
       key: '2',
-      title: 'Стів Джобс',
+      title: 'Tabs 2',
       image: imgJobs,
       content: 'Текст про Стіва Джобса...'
     },
     {
       key: '3',
-      title: 'Марк Цукерберг',
+      title: 'Tabs 3',
       image: imgMark,
       content: 'Текст про Марка Цукерберга...'
     }
