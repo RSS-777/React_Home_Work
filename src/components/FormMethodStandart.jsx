@@ -34,7 +34,7 @@ export const StandartMethodForm = () => {
       validate={validate}
     >
       {(props) => {
-
+        
         console.log(props.values)
         return (
           <form onSubmit={props.handleSubmit}>
