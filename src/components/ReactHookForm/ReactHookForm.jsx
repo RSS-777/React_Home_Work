@@ -13,10 +13,11 @@ const ReactHookForm = () => {
             })}>
                 <div className="block-first-name">
                     <div className="input-firs-name">
-                        <label htmlFor='name'>First name:</label>
+                        <label htmlFor='name'><div className="img-name"></div></label>
                         <input
                             type="text"
                             id='name'
+                            placeholder='First name'
                             {...register('firstName', {
                                 required: 'The field cannot be empty',
                                 minLength: { value: 3, message: 'Give your full name' },
@@ -28,10 +29,11 @@ const ReactHookForm = () => {
                 </div>
                 <div className="block-last-name">
                     <div className="input-last-name">
-                        <label htmlFor='last-name'>Last name:</label>
+                        <label htmlFor='last-name'><div className="img-last-name"></div></label>
                         <input
                             type="text"
                             id='last-name'
+                            placeholder='Last name'
                             {...register('lastName', {
                                 required: 'The field cannot be empty',
                                 minLength: { value: 3, message: 'Give your full LastName' },
@@ -43,10 +45,11 @@ const ReactHookForm = () => {
                 </div>
                 <div className="block-city">
                     <div className="input-city">
-                        <label htmlFor='city'>City:</label>
+                        <label htmlFor='city'><div className="img-city"></div></label>
                         <input
                             type="text"
                             id='city'
+                            placeholder='City'
                             {...register('city', {
                                 required: 'The field cannot be empty',
                                 minLength: { value: 3, message: 'Enter an existing city' },

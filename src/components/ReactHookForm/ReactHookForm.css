@@ -21,6 +21,8 @@ form {
     width: 200px;
     border-radius: 15px;
     border: 2px solid rgb(72, 72, 175);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .input-firs-name {
@@ -78,4 +80,22 @@ form {
     box-shadow: 1px 1px 3px 0 rgb(75, 74, 74);
     color: red;
     ;
+}
+.img-name {
+    background-image: url('https://cdn.icon-icons.com/icons2/4076/PNG/512/account_username_people_avatar_profile_person_user_icon_258905.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.img-last-name {
+    background-image: url('https://cdn.icon-icons.com/icons2/1780/PNG/128/dad-avatar_114341.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.img-city {
+    background-image: url('https://cdn.icon-icons.com/icons2/1310/PNG/512/city_86340.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
 }
