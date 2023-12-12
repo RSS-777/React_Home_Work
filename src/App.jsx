@@ -1,7 +1,7 @@
 import { FormMehtodField } from "./components/FormMehtodField/FormMehtodField";
 import { StandartMethodForm } from './components/FormMethodStandart';
 import { FormMethodHook } from './components/FormMethodHook';
-
+import FormFormikValitateYup from './components/FormFormikValitateYup'
 function App() {
   return (
     <div>
@@ -12,6 +12,7 @@ function App() {
       <StandartMethodForm /> */}
       {/* <h2>Formik Hook</h2>
       <FormMethodHook /> */}
+      {/* <FormFormikValitateYup /> */}
     </div>
   )
 }
