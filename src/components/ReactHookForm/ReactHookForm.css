@@ -1,0 +1,81 @@
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    background-color: rgba(130, 130, 244, 0.408);
+    border: 1px solid rgb(120, 120, 254);
+    box-shadow: 1px 1px 18px 0 rgb(72, 72, 175);
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#name,
+#last-name,
+#city {
+    height: 25px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid rgb(72, 72, 175);
+}
+
+.input-firs-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: blue;
+}
+
+.input-last-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: blue;
+}
+
+.input-city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: blue;
+}
+
+.block-error {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25px;
+    color: red;
+}
+
+.button-not-active {
+    position: absolute;
+    right: 30px;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.button-active {
+    position: absolute;
+    right: 30px;
+    background-color: rgb(94, 94, 255);
+    box-shadow: 2px 2px 5px 1px rgb(72, 72, 175);
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.button-active:hover {
+    box-shadow: 1px 1px 3px 0 rgb(75, 74, 74);
+    color: red;
+    ;
+}
