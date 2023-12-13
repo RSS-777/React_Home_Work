@@ -14,9 +14,16 @@ form {
     border-radius: 20px;
 }
 
+form h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 6px rgb(116, 132, 255);
+}
+
 #name,
 #last-name,
-#city {
+#city,
+#university {
     height: 25px;
     width: 200px;
     border-radius: 15px;
@@ -47,6 +54,27 @@ form {
     align-items: center;
     font-size: 22px;
     color: blue;
+}
+
+.input-university {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: blue;
+}
+
+.input-checkbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 22px;
+    color: blue;
+    margin-bottom: 25px;
+}
+
+#student {
+    margin-left: 70px;
 }
 
 .block-error {
@@ -81,18 +109,21 @@ form {
     color: red;
     ;
 }
+
 .img-name {
     background-image: url('https://cdn.icon-icons.com/icons2/4076/PNG/512/account_username_people_avatar_profile_person_user_icon_258905.png');
     background-size: contain;
     width: 40px;
     height: 40px;
 }
+
 .img-last-name {
     background-image: url('https://cdn.icon-icons.com/icons2/1780/PNG/128/dad-avatar_114341.png');
     background-size: contain;
     width: 40px;
     height: 40px;
 }
+
 .img-city {
     background-image: url('https://cdn.icon-icons.com/icons2/1310/PNG/512/city_86340.png');
     background-size: contain;
