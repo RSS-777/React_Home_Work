@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container-block-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 200px;
+    border-radius: 15px;
+    background-color: rgb(239, 241, 185);
+    box-shadow: 2px 2px 8px 1px black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.block-cards:hover {
+    background-color: rgb(234, 237, 131);
+    box-shadow: 2px 2px 5px 0 black;
+    border: 1px solid yellow;
+}
+
+.block-cards h5 {
+    text-align: center;
+    color: blue;
+    padding: 0 10px 10px;
+}
+
+.block-cards img {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.block-cards p {
+    align-self: flex-end;
+    margin-right: 20px;
+    color: red;
+}
