@@ -1,10 +1,12 @@
 .light {
     background-color: blanchedalmond;
+    padding: 20px;
 }
 
 .dark {
     background-color: gray;
     color: white;
+    padding: 20px;
 }
 
 h2 {
