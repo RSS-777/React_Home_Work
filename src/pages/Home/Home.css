@@ -1,0 +1,12 @@
+h2 {
+    text-align: center;
+}
+
+.list-users span {
+    color: rgb(0, 68, 255);
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
