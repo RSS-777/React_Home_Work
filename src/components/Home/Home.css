@@ -1,0 +1,10 @@
+.light-theme {
+    background-color: rgb(189, 241, 241);
+    height: 100vh;
+}
+
+.dark-theme {
+    background-color: rgb(2, 58, 21);
+    color: white;
+     height: 100vh;
+}
